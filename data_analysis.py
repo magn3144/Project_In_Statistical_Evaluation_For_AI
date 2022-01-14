@@ -9,8 +9,9 @@ from tqdm import tqdm
 from sklearn import model_selection
 
 path = r'C:\Users\niels\OneDrive\Skrivebord\Statistisk Analyse af Kunstig Intelligens\projekt\\'
+path_m = r'C:\Users\magnu\Documents\GitHub\Project_In_Statistical_Evaluation_For_AI\data\\'
 
-robj = r.load(path + 'armdata.RData')
+robj = r.load(path_m + 'armdata.RData')
 
 
 #%% get data

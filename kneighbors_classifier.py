@@ -205,7 +205,7 @@ for fold1 in tqdm(range(10)):
         confussion_experiment[y_pred, y_true] += 1
         confussion_distance[exp2distance[y_pred], exp2distance[y_true]] += 1
         confussion_obstacle[exp2obstacle[y_pred], exp2obstacle[y_true]] += 1
-        
+
 
 #%%
 
@@ -224,5 +224,3 @@ for cm, labels in zip(cms, all_labels):
     ax.set_yticklabels(labels)
     plt.tight_layout()
     plt.show()
-
-
